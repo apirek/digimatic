@@ -1,6 +1,8 @@
 # Digimatic USB-Adaptor
 Read out Mitutoyo measuring instruments via USB.
 
+Tested with ID-SX2 indicator.
+
 ## Usage
 The adaptor presents itself as a serial device to the computer.
 Any input (e.g. newline) requests a measurement.
