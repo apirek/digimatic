@@ -18,4 +18,8 @@ target_link_libraries(digimatic
   pico_stdlib
   pico_time
 )
+
+pico_enable_stdio_usb(digimatic 1)
+pico_enable_stdio_uart(digimatic 1)
+
 pico_add_extra_outputs(digimatic)
