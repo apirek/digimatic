@@ -8,6 +8,13 @@ The measured value is output as a decimal number with `.` (dot) separator in the
 Errors are reported on lines starting with `#` (hash).
 
 ## Build
+The Pico C SDK and TinyUSB are required and included as Git submodules.
+Git submodules may need to be initialized after a clone:
+```sh
+git submodule update --init --recursive
+```
+
+Build with CMake:
 ```sh
 mkdir src/build
 cd src/build
