@@ -8,6 +8,7 @@ pico_sdk_init()
 
 add_executable(digimatic
   digimatic.c
+  led.c
   main.c
 )
 
